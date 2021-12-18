@@ -1,0 +1,24 @@
+body{
+    height: 600px;
+    background-image:url(https://www.sanmarinortv.sm/uploads/img/photo/61/617bdb8a551e7505677542.jpeg);
+    background-size: cover;
+    background-repeat:no-repeat;
+    background-position: center center;
+    color: white;
+}
+
+h1{
+    /*color: #3E00FF;
+    font-size: 70px;
+    font-style: bold;
+    font-family: Philosopher;
+    background-color: white;*/
+    font-family:verdana;
+  font-size:80px;
+  color:#3E00FF;
+  text-shadow: 3px  0px 0px orange,
+               0px  3px 0px orange,
+              -3px  0px 0px orange,
+               0px -3px 0px orange;
+}
+

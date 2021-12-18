@@ -1,0 +1,25 @@
+body{
+    background: cadetblue;
+}
+h1{
+    color: red;
+    
+}
+.galeria
+{
+    width: 100%;
+}
+.galeria img{
+width: 400px;
+height: 200px;
+vertical-align: top;
+opacity:0.9;
+border:1px solid #888 ;
+padding: 5px;
+margin: 10px;
+}
+.galeria img:hover{
+    opacity: 1;
+    border: 1px solid #fff;
+    
+}

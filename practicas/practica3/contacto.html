@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="contacto.css">
+
+    <form action="gracias.html" method="GET">
+        <label class="lab" for="">Nombre completo:</label>
+        <input class="inp" type="text" placeholder="Nombre"   name="Nombre" id="Nombre" required pattern="[A-Z a-z]{4,25}"  >
+        <br>
+
+        <label class="lab" for="">Correo electronico:</label>
+        <input class="inp" type="email" name="Correo electronico" placeholder="example@gmail.com" required>
+        <br>
+
+        <label class="lab" for="">Téfono: </label>
+        <input class="inp" type="tel" name="Telefono" placeholder="+591" pattern="[0-9]{8}" required>
+        <br>
+
+        <label class="lab" for="">Fecha actual:</label>
+        <input class="inp" type="date" name="Fecha actual">
+        <br>
+
+        <label class="lab" for="">Tipo de usuario:</label>
+        <input class="inp" type="list" name="Tipo de usuario" placeholder="Que tipo de usuario es:"required>
+        <br>
+
+        <label class="lab" for="">Lugar del que requiere información</label>
+        <select class="inp" name="Lugar del que requiere información">
+            <optgroup label="Seleccionar departamento...">
+            <option value="1">Cochabamba</option> 
+            <option value="2">La Paz</option>
+            <option value="3">Santa Cruz</option> 
+            <option value="4">Tarija</option> 
+            <option value="5">Sucre</option> 
+            <option value="6">Beni</option>
+            <option value="7">Pando</option> 
+            <option value="8">Oruro</option> 
+            <option value="9">Potosi</option> 
+            </optgroup>
+         </select>
+        <br>
+
+        <label class="lab" for="">Información adicional o comentarios:</label>
+        <input type="textarea" class="tex" name="Información adicional o comentarios" placeholder="¿tiene algun comentario?">
+        <br>
+        <input class="end" type="submit" name="Enviar"> 
+    </form>
+
+</head>
+<body>
+    
+</body>
+</html>

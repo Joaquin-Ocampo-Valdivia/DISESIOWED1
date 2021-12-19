@@ -1,4 +1,9 @@
-body{
+*{
+    margin: 0px;
+    padding: 0px;
+}
+header{
+    
     height: 600px;
     background-image:url(https://www.sanmarinortv.sm/uploads/img/photo/61/617bdb8a551e7505677542.jpeg);
     background-size: cover;
@@ -20,5 +25,65 @@ h1{
                0px  3px 0px orange,
               -3px  0px 0px orange,
                0px -3px 0px orange;
+}/*
+#seccion{
+    color: #B5FFD9;
+}*/
+
+.uno{
+    color:#fff;
+    background-color: #AE00FB;
+    text-decoration:none;
+    font-size: 35px;
+    display: inline-block;
+    padding: 15px 15px;
+    margin: 40px 5px;
+}
+h2{
+    background: #3E00FF;
+    color: #fff;
 }
 
+h3{
+    color: #B5FFD9;
+}
+article{
+	text-align: justify;
+}
+
+body{
+    background: #170055;
+    margin: 15px 150px;
+    font-size: 20px;
+}
+.def{
+    background: #170055;
+    color: #fff;
+    padding: 35px 25px;
+}
+.inicio{
+    background: white;
+    color: black;
+    padding: 7px 7px;
+    border:1px solid black;
+}
+.ven{
+    padding: 35px 5px;
+    color: white;
+    width: 100%;
+    background: #3E00FF;
+}
+.v1{
+    text-align: center;
+}
+.sit{
+    background: #B5FFD9;
+    color: black;
+    padding: 25px 25px;
+}
+#fun{
+    background: #AE00FB;
+    color: #fff;
+    padding: 25px 25px;
+    margin: 0px 0px;
+}

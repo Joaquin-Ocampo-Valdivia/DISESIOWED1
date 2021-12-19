@@ -1,12 +1,12 @@
 form{
-	width:250px;
-	padding:10px;
+	width:440px;
+	padding:3px 10px;
 	border-radius:25px;
 	margin:auto;
     background-image: url(https://cdn.pixabay.com/photo/2020/02/24/18/05/background-4876991_960_720.jpg);
 }
 .lab{
-    width:80px;
+    width:50px;
 	font-weight:bolder;
     font-size: 25px;
 	display: inline-flexbox;

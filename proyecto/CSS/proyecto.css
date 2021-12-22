@@ -1,0 +1,173 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+header{
+    display:grid;
+    flex-wrap: wrap;
+    flex-direction: row;
+    margin: auto;
+    justify-content: space-evenly;
+    background: white;
+    padding: 20px 0 20px 0px;
+	text-align: justify;
+    
+    height: 600px;
+    background-image:url(https://www.sanmarinortv.sm/uploads/img/photo/61/617bdb8a551e7505677542.jpeg);
+    background-size: cover;
+    background-repeat:no-repeat;
+    background-position: center center;
+    color: white;
+}
+
+h1{
+    font-family:verdana;
+  font-size:60px;
+  color:#3E00FF;
+  text-shadow: 3px  0px 0px orange,
+               0px  3px 0px orange,
+              -3px  0px 0px orange,
+               0px -3px 0px orange;
+}
+
+.uno{
+    color:#fff;
+    background-color: #AE00FB;
+    text-decoration:none;
+    font-size: 22px;
+    display: inline-block;
+    padding: 15px 15px;
+    margin: 40px 5px;
+}
+h2{
+    background: #3E00FF;
+    color: #fff;
+}
+
+h3{
+    color: #B5FFD9;
+}
+.flex{
+    display:grid;
+    flex-wrap: wrap;
+    flex-direction: row;
+    margin: auto;
+    justify-content: space-evenly;
+    background: white;
+    padding: 20px 0 20px 0px;
+	text-align: justify;
+    }   
+
+body{
+    background: white;
+    margin: 15px 150px;
+    font-size: 20px;
+    font-family:'Times New Roman';
+    }
+
+.def{
+    background-color: white;
+    color:black;
+    padding: 10px 10px;
+    margin: 15px 0px;
+    }
+
+.def:hover{
+        background-color: #170055;
+        color: white;
+    }
+
+#def{
+    background-color: white;
+    color:black;
+    }
+    
+.ven{
+    background: white;
+    color: black;
+    padding: 10px 10px;
+    margin: 15px 0px;
+    }
+.ven:hover{
+    background: #3E00FF;
+    color: white;
+}
+#ven{
+    background-color: white;
+    color:black;
+}
+.v1{
+    text-align: center;
+    }
+.sit{
+    background:white;
+    color: black;
+    padding: 10px 10px;
+    margin: 15px 0px;
+}
+
+.sit:hover{
+    background: #B5FFD9;
+    color: black;
+}
+
+#sit{
+    background-color: white;
+    color:black;
+}
+
+#fun{
+    background-color: white;
+    color:black;
+    }
+.fun{
+    background: white;
+    color:black;
+    padding: 10px 10px;
+    margin: 15px 0px;
+    }
+    .fun:hover{
+        background: #AE00FB;
+        color: #fff;
+    }
+
+    
+.inicio{
+    background: white;
+    color: black;
+    padding: 10px 10px;
+    border:1px solid black;
+    margin: 15px 0px;
+    }
+.inicio:hover{
+    background-color: black;
+    color: white;
+}
+.imagenes img{
+
+    width: 25%;
+    padding: 0px 15px;
+    vertical-align: top; 
+    }
+
+.upds{
+        width:150px;
+    }
+
+.galeria{
+    width:65%;
+}
+.galeriam{
+    width: 65%;
+}
+.galeriaf{
+    width: 65%;
+}
+
+.fie{
+    width: 100%;
+    background: black;
+    color: white;
+    margin: 15px 0px;
+    padding: 15px 15px;
+}

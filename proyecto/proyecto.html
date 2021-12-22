@@ -4,15 +4,20 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="MobileOptimized" content="width" />
     <title>Metaverso.com</title>
-    <link rel="stylesheet" href="proyecto.css">
-    <link rel="icon" href="metaverso.ico">
+    <link rel="stylesheet" href="CSS/proyecto.css">
+    <link rel="icon" href="Imagenes/metaverso.ico">
 </head>
 
+    <script>
+        var mensaje = 'Bienvenido al metaverso';
+        alert (mensaje);
+    </script>
 <body>
-    <div>
+    <div>5
         <a id="met"></a>
-        <img src="../imagenes/upds.jpg" width="150px" >
+        <img class="upds" src="Imagenes/upds.jpg" alt="upds">
         <a href="#def" class="uno">Definicion</a>
         <a href="#ven" class="uno">Ventajas y Desventajas</a>
         <a href="#sit" class="uno">Sitios de descargas</a>
@@ -24,14 +29,14 @@
    
     </header>
 
-    <article> 
-
-        <h2 id="def">Definión</h2>
-        <p class="def"> El <strong>Metaverso</strong> es un mundo virtual tridimensional vinculado a internet, al cual tendremos acceso conectandonos a una serie de dispositivos que nos harán pensar que realmente estamos dentro de él, interactuando con todos sus elementos. Sera como entrar a un mundo nuevo, donde no habrán límites. 
+    <div class="flex"> 
+        <div class="def">
+        <h2 class="def" id="def" >Definión</h2>
+        <p> El <strong>Metaverso</strong> es un mundo virtual tridimensional vinculado a internet, al cual tendremos acceso conectandonos a una serie de dispositivos que nos harán pensar que realmente estamos dentro de él, interactuando con todos sus elementos. Sera como entrar a un mundo nuevo, donde no habrán límites. 
             Otra de las principales ideas del Metaverso es que tengamos una total libertad de creación, tanto para hacer nuestro avatar parecido a nuestra persona física como para darle un aspecto diferente, y también para crear el entorno y nuestros negocios y habitaciones a nuestro gusto.
             Al igual que otros programas, el Metaverso cuenta con ciertas características que lo hacen mas eficientes, las cuales son:
         </p>
-            <ul class="def">
+            <ul>
                 <li><strong>Persistente: </strong>La desconexión temporal con el Metaverso no para su existencia, sigue sin problemas, sin repercusiones. </li>
                 <li><strong>No tiene límites: </strong> No hay un tope al número de usuarios, experiencias, mundos o universos. </li>
                 <li><strong>Social: </strong> Serán una evolución de las redes sociales. </li>
@@ -43,13 +48,17 @@
                 
             </ul>
         
-        <img src="#" alt="">
+            <img class="galeria" src="https://cdn.forbes.co/2021/10/Meta-1280x720-1.jpg" alt="definicion">
+        </div>
         <a href="#met" class="inicio">Volver al inicio</a>
-        
-        <h2 class="ven">Ventajas y Desventajas</h2>
-        <p class="ven"> Al igual que muchas cosas, el Metaverso cuenta con ventajas y con desventaja, las cuales veremos a continuación.</p>
-      
-        <table class="ven">
+
+
+
+        <div class="ven">
+        <h2 class="ven" id="ven">Ventajas y Desventajas</h2>
+        <p> Al igual que muchas cosas, el Metaverso cuenta con ventajas y con desventaja, las cuales veremos a continuación.</p>
+      <br>
+        <table>
             <thead>
             <tr>
                 <th class="v1">Ventajas</th>
@@ -74,63 +83,77 @@
                 <td class="v1">Daño de la vista a largo plazo, causado por el uso de lentes de VR</td>
             </tr>
             <tr>
-            <td class="v1">Nacen nuevos empleos.</td>
-            <td class="v1">Muchos empleos informales o que requieran de intervención humana, desaparecerán.</td>
-        </tr>
+                <td class="v1">Nacen nuevos empleos. <br> </td> 
+                <td class="v1">Muchos empleos informales o que requieran de intervención humana, desaparecerán.</td>
+            </tr>
         </tbody>
     </table>
-    
-    <a href="#met" class="inicio">Volver al inicio</a>
-    
-    <h2 class="sit">Sitios de descargas</h2>
-    <p class="sit">  
-        Debido a que el Metaverso estará disponible para dispositivos móviles <em>(celulares)</em> los lugares de descarga 
-        serán ilimitados, y a pesar de que es gratuito, es muy probable que existan versiones crackeadas en internet
-        , por ahora Mark Zuckerberg ha asegurado que todas las versiones del Metaverso estarán siempre disponibles para Android en
-        la <strong>Google Play </strong><em>(Play Store)</em>, y para IOS estará disponible en la <strong>App Store</strong>. 
-        De lo único que deberá preocuparse la población será de tener los debidos lentes de VR <em>(Realidad Virtual)</em>. 
-    </p>
-    <img src="#" alt="">
-
+    <div class="imagenes">
+        <img src="https://statics.forbesargentina.com/2021/11/61843ac6f0c5c.jpg" alt="vent">
+        <img src="Imagenes/MicrosoftTeams-image.png" alt="desven">
+    </div>
+    </div>
     <a href="#met" class="inicio">Volver al inicio</a>
 
 
-    
-    <h2 id="fun">Funciones</h2>
-    <p id="fun">
-        El Metaverso es una versión mejorada de nuestro mundo, ya que todo está automatizado, pero sigue cumpliendo con las mismas
-        funciones que, en nuestro mundo, ya sea:
-    </p>
-        <ul id="fun">
-            <li><strong>La economía, </strong>a de economía; la cual estará presente en el Metaverso de igual manera como esta 
-                presente en nuestra realidad, con la excepción que toda moneda o producto dentro de ese mundo será virtual.
-            </li>
-            <li><strong>La interacción, </strong>si bien será virtual y ajeno al tacto, servirá para afianzar lazos entre familiares que se encuentran lejos, de una forma más personal. Al mismo 
-              tiempo que servirá de ayuda a las personas con autismo o las personas con fobia a ser tocados.
-            </li>
-            <li><strong>El ambiente laboral, </strong>los inconvenientes de tráfico, encapsulamiento o lejanía, dejaran de ser un problema
-             una vez que se implemente el Metaverso en el ambiente laboral.
-            </li>
-            <li><strong>La política, </strong> si bien Marck Zuckerberg, dejo en claro que no quiere meter la política en su mundo, esto no quiere decir 
-                que privara a las figuras políticas de entrar a su mundo, como muchos han pensado.
-            </li>
-            <li><strong>Hobbies y distracciones, </strong> el repertorio de actividades que se pueden realizar en el Metaverso, son casi infinitas
-                 desde actividades al aire libre hasta las más cotidianas, inclusive se podrán realizar actividades que solo podrían realizarse en 
-                 mundos de fantasía. 
-            </li>
-        </ul>
-    
-    <p id="fun">
-        La única función que no podrá cubrir del todo, y aun así termina siendo inútil, ya que, si bien podrás ir a restaurantes dentro del Metaverso, 
-        tu hambre jamás se verá saciada, lo único que podrías hacer es ir a restaurantes o pedir comida estando dentro del Metaverso, pero 
-        no sería muy diferente a hacerlo desde tu celular usando una aplicación cualquiera.
-    </p>
-    <img src="#" alt="">
 
+    <div class="sit">
+        <h2 class="sit" id="sit">Sitios de descargas</h2>
+        <p>  
+            Debido a que el Metaverso estará disponible para dispositivos móviles <em>(celulares)</em> los lugares de descarga 
+            serán ilimitados, y a pesar de que es gratuito, es muy probable que existan versiones crackeadas en internet
+            , por ahora Mark Zuckerberg ha asegurado que todas las versiones del Metaverso estarán siempre disponibles para Android en
+            la <strong>Google Play </strong><em>(Play Store)</em>, y para IOS estará disponible en la <strong>App Store</strong>. 
+            De lo único que deberá preocuparse la población será de tener los debidos lentes de VR <em>(Realidad Virtual)</em>. 
+        </p>
+        <img class="galeriam" src="https://www.la-razon.com/wp-content/uploads/2021/10/28/20/fb-meta-zuck.jpg" alt="si">
+    </div>
+
+    <a href="#met" class="inicio">Volver al inicio</a>
+        </div>
+
+    
+    <div class="fun">    
+        <h2 class="fun" id="fun">Funciones</h2>
+        <p>
+            El Metaverso es una versión mejorada de nuestro mundo, ya que todo está automatizado, pero sigue cumpliendo con las mismas
+            funciones que, en nuestro mundo, ya sea:
+        </p>
+            <ul>
+                <li><strong>La economía, </strong>a de economía; la cual estará presente en el Metaverso de igual manera como esta 
+                    presente en nuestra realidad, con la excepción que toda moneda o producto dentro de ese mundo será virtual.
+                </li>
+                <li><strong>La interacción, </strong>si bien será virtual y ajeno al tacto, servirá para afianzar lazos entre familiares que se encuentran lejos, de una forma más personal. Al mismo 
+                tiempo que servirá de ayuda a las personas con autismo o las personas con fobia a ser tocados.
+                </li>
+                <li><strong>El ambiente laboral, </strong>los inconvenientes de tráfico, encapsulamiento o lejanía, dejaran de ser un problema
+                una vez que se implemente el Metaverso en el ambiente laboral.
+                </li>
+                <li><strong>La política, </strong> si bien Marck Zuckerberg, dejo en claro que no quiere meter la política en su mundo, esto no quiere decir 
+                    que privara a las figuras políticas de entrar a su mundo, como muchos han pensado.
+                </li>
+                <li><strong>Hobbies y distracciones, </strong> el repertorio de actividades que se pueden realizar en el Metaverso, son casi infinitas
+                    desde actividades al aire libre hasta las más cotidianas, inclusive se podrán realizar actividades que solo podrían realizarse en 
+                    mundos de fantasía. 
+                </li>
+            </ul>
+        
+        <p>
+            La única función que no podrá cubrir del todo, y aun así termina siendo inútil, ya que, si bien podrás ir a restaurantes dentro del Metaverso, 
+            tu hambre jamás se verá saciada, lo único que podrías hacer es ir a restaurantes o pedir comida estando dentro del Metaverso, pero 
+            no sería muy diferente a hacerlo desde tu celular usando una aplicación cualquiera.
+        </p>
+        <img class="galeriaf" src="https://i.blogs.es/e7d433/ready-player-one/1366_2000.jpg" alt="func">
+        <br>
+    </div>
     <a href="#met" class="inicio">Volver al inicio </a>
-
-
-</article>
+    
+ 
 
 </body>
+
+<footer class="fie">
+    <script src="Java/proyecto.js"></script>
+    </footer>
 </html>
+
